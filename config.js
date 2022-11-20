@@ -1,7 +1,7 @@
 // const dotenv = require("dotenv");
 // dotenv.config();
 
-// exports.PORT = 3000;
+exports.PORT = process.env.PORT || 3000;
 exports.MONGODB_URI = "mongodb://localhost:27017/aao_chale";
 
 //   "mongodb+srv://rutujagaikwad:StartLazaa2022@cluster0.rcmoqkb.mongodb.net/aao_chale";
