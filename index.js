@@ -7,12 +7,12 @@ const cors = require("cors");
 
 const cookieParser = require("cookie-parser");
 
-// const PORT = 3000;
-// const MONGODB_URI = "mongodb://localhost:27017/aao_chale";
+const PORT = process.env.PORT || 3000;
+const MONGODB_URI =
+  "mongodb+srv://rutujagaikwad:StartLazaa2022@cluster0.rcmoqkb.mongodb.net/aao_chale";
 // const NODE_ENV = process.env || development;
 
 const {
-  PORT,
   MONGODB_URI,
   NODE_ENV,
   ORIGIN,
