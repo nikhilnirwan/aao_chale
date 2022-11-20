@@ -45,7 +45,7 @@ const userSchema = new mongodb.Schema(
     role: {
       type: String,
       enum: ["ADMIN", "USER"],
-      // default: "USER",
+      // default: "USER",//
     },
 
     phoneOtp: String,
