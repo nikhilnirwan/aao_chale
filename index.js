@@ -12,13 +12,7 @@ const MONGODB_URI =
   "mongodb+srv://rutujagaikwad:StartLazaa2022@cluster0.rcmoqkb.mongodb.net/aao_chale";
 // const NODE_ENV = process.env || development;
 
-const {
-  MONGODB_URI,
-  NODE_ENV,
-  ORIGIN,
-  JWT_SECRET,
-  ADMIN_PHONE,
-} = require("./config");
+const { NODE_ENV, ORIGIN, JWT_SECRET, ADMIN_PHONE } = require("./config");
 const { API_ENDPOINT_NOT_FOUND_ERR, SERVER_ERR } = require("./errors");
 
 // routes
