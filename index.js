@@ -8,8 +8,8 @@ const cors = require("cors");
 const cookieParser = require("cookie-parser");
 
 const PORT = process.env.PORT || 3000;
-const MONGODB_URI =
-  "mongodb+srv://rutujagaikwad:StartLazaa2022@cluster0.rcmoqkb.mongodb.net/aao_chale";
+// const MONGODB_URI =
+//   "mongodb+srv://rutujagaikwad:StartLazaa2022@cluster0.rcmoqkb.mongodb.net/aao_chale";
 // const NODE_ENV = process.env || development;
 
 const { NODE_ENV, ORIGIN, JWT_SECRET, ADMIN_PHONE } = require("./config");
