@@ -2,7 +2,9 @@
 // dotenv.config();
 
 exports.PORT = 3000;
-exports.MONGODB_URI = "mongodb://localhost:27017/aao_chale";
+exports.MONGODB_URI =
+  "mongodb+srv://rutujagaikwad:StartLazaa2022@cluster0.rcmoqkb.mongodb.net/aao_chale";
+// "mongodb://localhost:27017/aao_chale";
 exports.NODE_ENV = "development";
 
 exports.JWT_SECRET = "abcdef";
