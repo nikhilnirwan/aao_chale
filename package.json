@@ -4,8 +4,7 @@
   "description": "otp base authentication & authorization",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "web": "node index.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
