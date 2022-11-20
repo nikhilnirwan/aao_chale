@@ -1,7 +1,7 @@
 const fast2sms = require("fast-two-sms");
-// const { FAST2SMS } = require("../config");
-const FAST2SMS =
-  "7CMnGHiUPOcdQ9LtA5zwmE1NxSp6RsrqYDIj38uTvfZ0eJXg2lwp4Egl520zPyYxrfZoc3DLOFBCdN1U";
+const { FAST2SMS } = require("../config");
+// const FAST2SMS =
+//   "7CMnGHiUPOcdQ9LtA5zwmE1NxSp6RsrqYDIj38uTvfZ0eJXg2lwp4Egl520zPyYxrfZoc3DLOFBCdN1U";
 
 exports.generateOTP = (otp_length) => {
   // Declare a digits variable

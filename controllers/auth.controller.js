@@ -212,18 +212,18 @@ exports.fetchCurrentUser = async (req, res, next) => {
 
 // --------------- admin access only -------------------------
 
-exports.handleAdmin = async (req, res, next) => {
-  try {
-    const currentUser = res.locals.user;
+// exports.handleAdmin = async (req, res, next) => {
+//   try {
+//     const currentUser = res.locals.user;
 
-    return res.status(200).json({
-      type: "success",
-      message: "Okay you are admin!!",
-      data: {
-        user: currentUser,
-      },
-    });
-  } catch (error) {
-    next(error);
-  }
-};
+//     return res.status(200).json({
+//       type: "success",
+//       message: "Okay you are admin!!",
+//       data: {
+//         user: currentUser,
+//       },
+//     });
+//   } catch (error) {
+//     next(error);
+//   }
+// };

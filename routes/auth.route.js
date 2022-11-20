@@ -10,11 +10,7 @@ const {
   fetchCurrentUser,
   handleAdmin,
   resendOTP,
-  // loginUser,
-  // verifyOTP,
-  // handleAdmin,
 } = require("../controllers/auth.controller");
-// router.use(checkAuth.protect);
 
 router.post("/createNewUser", createNewUser);
 
@@ -23,8 +19,6 @@ router.post("/resendOTP", resendOTP);
 
 router.post("/verify", verifyPhoneOtp);
 
-router.get("/me", checkAuth, fetchCurrentUser);
-
-router.get("/admin", checkAuth, checkAdmin, handleAdmin);
+router.get("/getUser", checkAuth, fetchCurrentUser);
 
 module.exports = router;
